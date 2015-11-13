@@ -18,7 +18,7 @@ app.config(function ($routeProvider) {
                 controller: "AddPerson"
             })
             .otherwise({
-                redirectTo: "/index.html"
+                redirectTo: "/allpersons"
             });
 });
 
